@@ -1,0 +1,23 @@
+a=0
+b=1
+sum=0
+n=int(input('enter n value'))
+for i in range(1,n+1):
+    c=a+b
+    print(c)
+    a=b
+    b=c
+    sum=sum+c
+print("\nThe sum of febnocci series=%d"%sum)
+
+OUTPUT:
+[10:39 PM, 2/17/2022] Bhavana: enter n value 6
+6
+1
+2
+3
+5
+8
+13
+
+The sum of febnocci series=32
